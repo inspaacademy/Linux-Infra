@@ -1,0 +1,9 @@
+// Enable DNS recursion
+
+        // the all-0's placeholder.
+         recursion yes;
+         allow-recursion { any; };
+         forwarders {
+                8.8.8.8; // google DNS
+                1.1.1.1; // Cloudflare DNS
+         };
