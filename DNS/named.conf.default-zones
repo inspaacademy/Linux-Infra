@@ -1,0 +1,6 @@
+...
+
+zone "your_domain.internal" {
+        type master;
+        file "/etc/bind/your_file";
+};
